@@ -142,7 +142,7 @@ I personally hate `vi`. The idea that commands begin with a colon sickens me. :q
 Let's fix that.
 
 ```
-export EDITOR=\"/Applications/TextEdit.app/Contents/MacOS/TextEdit\"" >> ~/.zshrc
+echo export "EDITOR=\"/Applications/TextEdit.app/Contents/MacOS/TextEdit\"" >> ~/.zshrc
 ```
 
 
