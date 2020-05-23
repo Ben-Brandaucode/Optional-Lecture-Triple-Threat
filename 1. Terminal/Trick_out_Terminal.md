@@ -35,8 +35,11 @@ source: [ohmyz.sh](https://ohmyz.sh/#install)
 
 [https://draculatheme.com/terminal](https://draculatheme.com/terminal)
 
-1. Follow "Install Manually"
-2. Then "Activating theme"
+1. Follow "Install Manually" to download the theme.
+2. Open Terminal
+3. Open Preferences
+4. Click on Profile tab
+5. Click import
 
 
 ### 3. Make a code folder outside of iCloud Drive
@@ -66,7 +69,9 @@ git clone <your group repo link>
 
 
 
-### Where to "Oh My" from here?
+### Explore on your own later
+
+Where to "Oh My" from here?
 
 [OMZ Themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 
@@ -93,11 +98,18 @@ gitignore is prefixed by a dot (aka period)
 
 ### 4. Install it for your configuration of git
 
+Run this command in Terminal:
+
 ```
 git config --global core.excludesFile ~/code/.gitignore
 ```
 
-### 5. When you're working with a group, one of you should add + commit a copy of your gitignore file.
+### 5. 
+
+
+### For later
+
+When you're working with a group, one of you should add + commit a copy of your gitignore file.
 
 The gitignore file copy should be at the root of your project folder.
 
@@ -129,8 +141,11 @@ I personally hate `vi`. The idea that commands begin with a colon sickens me. :q
 
 Let's fix that.
 
-1. Open TextEdit
-2. Open ~/env.sh
+```
+export EDITOR=\"/Applications/TextEdit.app/Contents/MacOS/TextEdit\"" >> ~/.zshrc
+```
+
+
 3. You have options here. Pick one.
 
 Text Editor Options
