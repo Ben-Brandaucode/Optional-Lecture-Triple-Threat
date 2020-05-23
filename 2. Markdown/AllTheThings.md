@@ -54,7 +54,7 @@ via: [theportalist.com](https://theportalist.com/50-of-the-best-fantasy-characte
 
 https://theportalist.com/50-of-the-best-fantasy-characters-ever
 
-1. Bilbo Baggins from *The Hobbit*
+1. Gollum from *The Hobbit* // develop
 1. Death from *Discworld*
 1. Harry Potter
 1. Tyrion Lannister from *A Song of Ice and Fire*
